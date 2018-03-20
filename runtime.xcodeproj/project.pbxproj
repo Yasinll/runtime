@@ -13,6 +13,8 @@
 		CDA515981FDA9B3200A5B7F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA515971FDA9B3200A5B7F3 /* Assets.xcassets */; };
 		CDA5159B1FDA9B3200A5B7F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA515991FDA9B3200A5B7F3 /* LaunchScreen.storyboard */; };
 		CDA5159E1FDA9B3200A5B7F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA5159D1FDA9B3200A5B7F3 /* main.m */; };
+		CDA515A61FDA9B4500A5B7F3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA515A51FDA9B4500A5B7F3 /* Person.m */; };
+		CDA515A91FDA9BD900A5B7F3 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA515A81FDA9BD900A5B7F3 /* NSObject+Runtime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CDA5159A1FDA9B3200A5B7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA5159C1FDA9B3200A5B7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA5159D1FDA9B3200A5B7F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDA515A41FDA9B4500A5B7F3 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CDA515A51FDA9B4500A5B7F3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CDA515A71FDA9BD900A5B7F3 /* NSObject+Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		CDA515A81FDA9BD900A5B7F3 /* NSObject+Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				CDA5158F1FDA9B3100A5B7F3 /* AppDelegate.m */,
 				CDA515911FDA9B3100A5B7F3 /* ViewController.h */,
 				CDA515921FDA9B3200A5B7F3 /* ViewController.m */,
+				CDA515A41FDA9B4500A5B7F3 /* Person.h */,
+				CDA515A51FDA9B4500A5B7F3 /* Person.m */,
+				CDA515A71FDA9BD900A5B7F3 /* NSObject+Runtime.h */,
+				CDA515A81FDA9BD900A5B7F3 /* NSObject+Runtime.m */,
 				CDA515941FDA9B3200A5B7F3 /* Main.storyboard */,
 				CDA515971FDA9B3200A5B7F3 /* Assets.xcassets */,
 				CDA515991FDA9B3200A5B7F3 /* LaunchScreen.storyboard */,
@@ -143,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA515931FDA9B3200A5B7F3 /* ViewController.m in Sources */,
+				CDA515A91FDA9BD900A5B7F3 /* NSObject+Runtime.m in Sources */,
 				CDA5159E1FDA9B3200A5B7F3 /* main.m in Sources */,
+				CDA515A61FDA9B4500A5B7F3 /* Person.m in Sources */,
 				CDA515901FDA9B3100A5B7F3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "NSObject+Runtime.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *properties = [Person pt_objProperties];
+    
+    NSLog(@"%@", properties);
+    
+    Person *person = [Person pt_objWithDict:@{@"name":@"Patrick",
+                                              @"age":@25,
+                                              @"title":@"Xiaobai",
+                                              @"height":@19,
+                                              @"xxx":@"yyy"}];
+
+    NSLog(@"%@", person);
 }
 
 
